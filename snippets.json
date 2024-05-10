@@ -1,0 +1,18 @@
+{
+    "Linux Network Headers": {
+        "prefix": "net_headers",
+        "body": [
+            "#include <stdio.h>",
+            "#include <stdlib.h>",
+            "#include <string.h>",
+            "#include <unistd.h>",
+            "#include <arpa/inet.h>",
+            "#include <sys/socket.h>",
+            "#include <netinet/in.h>",
+            "#include <errno.h>",
+            "",
+            "/* Additional headers or custom defines can be added here */"
+        ],
+        "description": "Include common Linux network programming headers"
+    }
+}
